@@ -1,0 +1,12 @@
+length1 = int(input("How long is the first side of the triangle"))
+length2 = int(input("How long is the secound side of the triangle"))
+length3 = int(input("How long is the third side of the triangle"))
+if length1 == length2 :
+    print("its an isoceles")
+else:
+    if length2 == length3 :
+        print("isoceles")
+    else:
+        print("there is no isoceles present")
+
+
